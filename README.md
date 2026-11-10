@@ -7,6 +7,7 @@
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)](./SKILL.md)
 [![Language](https://img.shields.io/badge/Language-中文-2563EB?style=flat-square)](./SKILL.md)
 [![Status](https://img.shields.io/badge/Status-Active-16A34A?style=flat-square)](./SKILL.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square)](./LICENSE)
 
 一个面向项目、研究、创作、经营、协作与高影响决策的停滞诊断 Skill。
 
@@ -18,16 +19,15 @@
 
 很多“卡住”并不是执行力不足，而是问题问错、目标模糊、方向失效、信息缺失、资源受限或反馈断裂。`stall-breaker` 不急着给万能清单，而是先还原用户真正要完成的任务，再定位当前最限制结果的环节。
 
-```mermaid
-flowchart LR
-    A[表层请求] --> B[真实任务与场景]
-    B --> C[主导瓶颈]
-    C --> D[竞争解释与反证]
-    D --> E[跨时间尺度方案]
-    E --> F[当前最优解]
-    F --> G[最小充分动作]
-    G --> H[翻转条件与复核]
-```
+<p align="center">
+  <code>表层请求</code> →
+  <code>真实任务</code> →
+  <code>主导瓶颈</code> →
+  <code>竞争解释</code> →
+  <code>跨期方案</code> →
+  <code>当前最优</code> →
+  <code>行动与复核</code>
+</p>
 
 它尤其适合这些表达：
 
@@ -101,6 +101,7 @@ git clone https://github.com/jiuxiaoliu/stall-breaker.git "$env:USERPROFILE\.cod
 stall-breaker/
 ├── SKILL.md
 ├── README.md
+├── LICENSE
 ├── references/
 │   ├── intent-and-scenario.md
 │   ├── scoring-and-iteration.md
@@ -129,4 +130,8 @@ stall-breaker/
 ## 参与改进
 
 欢迎提交 Issue，最好包含：原始请求、Skill 的实际回答、哪里失焦、哪些新证据改变了判断。真实失败案例比抽象功能建议更有价值。
+
+## 许可证
+
+本项目采用 [MIT License](./LICENSE)。你可以自由使用、复制、修改、合并、发布和分发，但须保留原始版权声明与许可声明。
 
